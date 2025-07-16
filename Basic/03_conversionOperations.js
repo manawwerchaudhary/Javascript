@@ -27,3 +27,32 @@ let myfunction=function(){
     console.log("hello world")
 }
 myfunction();
+/*
+*****************************************************
+2 type of memory
+stack and heap
+primitive => stack
+non-primitive => heap
+whenever we use stack memory we got a copy of that variable
+in heap we got reference of the value if we change that will reflect in original value
+*/
+
+
+let nasirAge=15
+let yasirAge=nasirAge
+
+nasirAge=16
+
+console.log(yasirAge)
+console.log(nasirAge)
+
+let userOne={
+    email:"one@gmail.com",
+    name:"one"
+}
+let userTwo=userOne
+
+userTwo.email="two@icloud.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
