@@ -36,4 +36,4 @@ const JsUser={
 
     console.log(Object.keys(JsUser)) //to print keys datatype is array
 
-    console.log(Object.values(JsUser))
+    console.log(Object.values(JsUser)) 
