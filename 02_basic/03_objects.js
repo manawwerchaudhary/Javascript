@@ -33,3 +33,7 @@ const JsUser={
 
     console.log(JsUser.greeting())
     console.log(JsUser.greetingTwo())
+
+    console.log(Object.keys(JsUser)) //to print keys datatype is array
+
+    console.log(Object.values(JsUser))
